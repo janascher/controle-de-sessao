@@ -13,23 +13,27 @@
 
 ## 🧐 Sobre a atividade
 
-Parte 1 - Campos do tipo 'hidden':
+Parte 2 - Cookies:
 
-1.  Crie uma página web que peça ao usuário o nome e senha e que, ao clicar no botão "Entrar" ele receba um "token" de identificação que será utilizado nas próximas requisições;
+1.  Crie uma página web que peça ao usuário o nome e senha e que, ao clicar no botão "Entrar" ele receba "cookie de sessão" que será utilizado nas próximas requisições;
 
-2. Validar a página criada de forma que todas as requisições sejam únicas para o usuário conectado, isto é, dependendo do usuário, os retornos às requisições sejam personalizadas.
+2. Validar a página criada de forma que todas as requisições sejam únicas para o usuário conectado, isto é, dependendo do usuário, os retornos às requisições sejam personalizadas.
 
-**OBS:** o servidor deve ser criado utilizando-se **Node.js** com pacotes **express** e **body-parser** para recebimento de dados e retorno de um **token** válido.
+**OBS:** o servidor deve ser criado utilizando-se **Node.js** com pacotes **express**, **body-parser** e **cookie-parser** para recebimento de dados e navegação privilegiada.
 
 ## 🔗 Referências básicas
 
--   Campo "hidden" de formulário HTML:
+-   "cookie-parser":
 
-    -   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/hidden
+    -   https://www.npmjs.com/package/cookie-parser
 
--   "body-parser":
+-   Cookies:
 
-    -   http://expressjs.com/en/resources/middleware/body-parser.html
+    -   https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Cookies
+
+- Exemplo:
+
+	- https://riptutorial.com/node-js/example/21767/setting-cookies-with-cookie-parser
 
 
 ## 🦸 Autor
