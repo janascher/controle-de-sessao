@@ -2,7 +2,7 @@
   "name": "controle-de-sessao",
   "version": "1.0.0",
   "description": "Atividade da aula 01",
-  "main": "03_Hashes/src/index.js",
+  "main": "04_JWT/src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon ."
@@ -22,7 +22,8 @@
     "body-parser": "^1.20.1",
     "cookie-parser": "^1.4.6",
     "crypto-js": "^4.1.1",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
